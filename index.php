@@ -23,6 +23,7 @@ header("location: home.php");
 <input name="submit" type="submit" value=" Login ">
 <span><?php echo $error; ?></span>
 </form>
+<input type="submit" value=" Register " onClick="window.location = 'registration.php';">
 </div>
 <div id="updates">
 <h3>Recent Updates</h3>
